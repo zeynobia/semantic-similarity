@@ -1,0 +1,11 @@
+TestFile:input/importantSentArxiv-40/lexRank.txt ModelDir: model/model-arxiv Algorithm: lsa TopN: 10 Total: 1000 Correct: 1000 Acc: 100.0
+TestFile:input/importantSentArxiv-40/lexRank.txt ModelDir: model/model-arxiv Algorithm: doc2vec-dbow TopN: 10 Total: 1000 Correct: 1000 Acc: 100.0
+TestFile:input/importantSentArxiv-40/lexRank.txt ModelDir: model/model-arxiv Algorithm: doc2vec-dbpv TopN: 10 Total: 1000 Correct: 1000 Acc: 100.0
+TestFile:input/importantSentArxiv-40/lexRank.txt ModelDir: model/model-arxiv Algorithm: rp TopN: 10 Total: 1000 Correct: 992 Acc: 99.2
+TestFile:input/importantSentArxiv-40/luhn.txt ModelDir: model/model-arxiv Algorithm: lsa TopN: 10 Total: 1000 Correct: 1000 Acc: 100.0
+TestFile:input/importantSentArxiv-40/luhn.txt ModelDir: model/model-arxiv Algorithm: doc2vec-dbow TopN: 10 Total: 1000 Correct: 1000 Acc: 100.0
+TestFile:input/importantSentArxiv-40/luhn.txt ModelDir: model/model-arxiv Algorithm: doc2vec-dbpv TopN: 10 Total: 1000 Correct: 1000 Acc: 100.0
+TestFile:input/importantSentArxiv-40/luhn.txt ModelDir: model/model-arxiv Algorithm: rp TopN: 10 Total: 1000 Correct: 997 Acc: 99.7
+TestFile: input/importantSentArxiv-40/lexRank.txt Algorithm: doc2vec-dbow TopN: 10 Total: 1000 Correct: 1000 Acc: 100.0 TotalSearchTimeSec: 0.7
+TestFile: input/importantSentArxiv-40/lexRank.txt Algorithm: fastSmartSearchUsingCluster TopN: 10 minProb: 0.01 maxSearchTopNCluster: 100 Total: 1000 Correct: 1000 Acc: 100.0 TotalSearchTimeSec: 0.8
+TestFile: input/importantSentArxiv-40/lexRank.txt Algorithm: fastSmartSearchUsingCluster TopN: 10 minProb: 0.04 maxSearchTopNCluster: 100 Total: 1000 Correct: 997 Acc: 99.7 TotalSearchTimeSec: 0.8

@@ -1,0 +1,15 @@
+TestFile: input/importantSent-24/lexRank.txt Algorithm: doc2vec-dbow TopN: 250 Total: 2500 Correct: 2500 Acc: 100.0 TotalSearchTimeSec: 200.0
+TestFile: input/importantSent-24/lexRank.txt Algorithm: fastSmartSearchUsingCluster TopN: 250 minProb: 0.01 maxSearchTopNCluster: 100 Total: 2500 Correct: 2498 Acc: 99.92 TotalSearchTimeSec: 49.6
+TestFile: input/importantSent-24/lexRank.txt Algorithm: fastSmartSearchUsingCluster TopN: 250 minProb: 0.04 maxSearchTopNCluster: 100 Total: 2500 Correct: 2496 Acc: 99.84 TotalSearchTimeSec: 42.9
+TestFile: input/importantSent-24/lexRank.txt Algorithm: fastSmartSearchUsingCluster TopN: 250 minProb: 0.1 maxSearchTopNCluster: 100 Total: 2500 Correct: 2487 Acc: 99.48 TotalSearchTimeSec: 33.4
+TestFile: input/importantSent-24/lexRank.txt Algorithm: fastSmartSearchUsingCluster TopN: 250 minProb: 0.01 maxSearchTopNCluster: 1 Total: 2500 Correct: 2331 Acc: 93.24 TotalSearchTimeSec: 21.5
+TestFile: input/importantSent-24/lexRank.txt Algorithm: fastSmartSearchUsingCluster TopN: 250 minProb: 0.01 maxSearchTopNCluster: 2 Total: 2500 Correct: 2459 Acc: 98.36 TotalSearchTimeSec: 32.7
+TestFile: input/importantSent-24/lexRank.txt Algorithm: fastSmartSearchUsingCluster TopN: 250 minProb: 0.01 maxSearchTopNCluster: 3 Total: 2500 Correct: 2486 Acc: 99.44 TotalSearchTimeSec: 41.3
+TestFile: input/importantSent-24/textRank.txt Algorithm: fastSmartSearchUsingCluster TopN: 250 minProb: 0.01 maxSearchTopNCluster: 100 Total: 2500 Correct: 2492 Acc: 99.68 TotalSearchTimeSec: 49.0
+TestFile: input/importantSent-24/textRank.txt Algorithm: fastSmartSearchUsingCluster TopN: 250 minProb: 0.04 maxSearchTopNCluster: 100 Total: 2500 Correct: 2489 Acc: 99.56 TotalSearchTimeSec: 42.7
+TestFile: input/importantSent-24/lsa.txt Algorithm: doc2vec-dbow TopN: 250 Total: 2500 Correct: 2500 Acc: 100.0 TotalSearchTimeSec: 202.6
+TestFile: input/importantSent-24/lsa.txt Algorithm: fastSmartSearchUsingCluster TopN: 250 minProb: 0.01 maxSearchTopNCluster: 100 Total: 2500 Correct: 2496 Acc: 99.84 TotalSearchTimeSec: 52.6
+TestFile: input/importantSent-24/lsa.txt Algorithm: fastSmartSearchUsingCluster TopN: 250 minProb: 0.04 maxSearchTopNCluster: 100 Total: 2500 Correct: 2497 Acc: 99.88 TotalSearchTimeSec: 43.8
+TestFile: input/importantSent-24/luhn.txt Algorithm: doc2vec-dbow TopN: 250 Total: 2500 Correct: 2500 Acc: 100.0 TotalSearchTimeSec: 199.8
+TestFile: input/importantSent-24/luhn.txt Algorithm: fastSmartSearchUsingCluster TopN: 250 minProb: 0.01 maxSearchTopNCluster: 100 Total: 2500 Correct: 2494 Acc: 99.76 TotalSearchTimeSec: 47.2
+TestFile: input/importantSent-24/luhn.txt Algorithm: fastSmartSearchUsingCluster TopN: 250 minProb: 0.04 maxSearchTopNCluster: 100 Total: 2500 Correct: 2490 Acc: 99.6 TotalSearchTimeSec: 42.4
