@@ -68,23 +68,16 @@ python3 searchWebServiceAll.py
 By default, it works on port 5555. By typing http://127.0.0.1:5555 in the browser, it is possible to send long text content or short text as in the example below and select the algorithm. It is also possible to make a request with the curl command. TopN parameter is set to 25. If necessary, the topN parameter can be adjusted in the web service configuration file. The default algorithm is fastSmartSearch, which is a hybrid algorithm that uses doc2vec-dbow and hdp semantic algorithms.
 
 curl -F content='active passive learning' http://127.0.0.1:5555/getSemanticSimilarity
-curl -F content='active passive learning' -F algorithm='fastSmartSearch'
-http://127.0.0.1:5555/getSemanticSimilarity
-curl -F content='active passive learning' -F algorithm='doc2vec-dbow'
-http://127.0.0.1:5555/getSemanticSimilarity
-curl -F content='active passive learning' -F algorithm='doc2vec-dbpv'
-http://127.0.0.1:5555/getSemanticSimilarity
-curl -F content='active passive learning' -F algorithm='lsa'
-http://127.0.0.1:5555/getSemanticSimilarity
+curl -F content='active passive learning' -F algorithm='fastSmartSearch' http://127.0.0.1:5555/getSemanticSimilarity
+curl -F content='active passive learning' -F algorithm='doc2vec-dbow' http://127.0.0.1:5555/getSemanticSimilarity
+curl -F content='active passive learning' -F algorithm='doc2vec-dbpv' http://127.0.0.1:5555/getSemanticSimilarity 
+curl -F content='active passive learning' -F algorithm='lsa' http://127.0.0.1:5555/getSemanticSimilarity
 curl -F content='active passive learning' -F algorithm='rp' http://127.0.0.1:5555/getSemanticSimilarity
 
 Although there are algorithms that are not recommended in terms of processing power and performance, training can be done on lda, nmf, plsa, minHash, btm models. In this case, requests can be sent to the web service with the curl command as follows.
 
-curl -F content='active passive learning' -F algorithm='lda'
-http://127.0.0.1:5555/getSemanticSimilarity
-curl -F content='active passive learning' -F algorithm='nmf'
-http://127.0.0.1:5555/getSemanticSimilarity
-curl -F content='active passive learning' -F algorithm='plsa'
-http://127.0.0.1:5555/getSemanticSimilarity
+curl -F content='active passive learning' -F algorithm='lda' http://127.0.0.1:5555/getSemanticSimilarity
+curl -F content='active passive learning' -F algorithm='nmf' http://127.0.0.1:5555/getSemanticSimilarity
+curl -F content='active passive learning' -F algorithm='plsa' http://127.0.0.1:5555/getSemanticSimilarity
 curl -F content='active passive learning' -F algorithm='minHash' http://127.0.0.1:5555/getSemanticSimilarity
 curl -F content='active passive learning' -F algorithm='btm' http://127.0.0.1:5555/getSemanticSimilarity
